@@ -6,7 +6,10 @@ const person = {
     details:{
         job:"yes",
         isMarried:true,
-        mothersName:"Hasina"
+        
+    },
+    father:{
+        name:"Habibar"
     }
 }
-console.log(person["details"]["fathersName"]);
+console.log(person.mother?.name);
